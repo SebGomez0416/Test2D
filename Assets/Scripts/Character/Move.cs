@@ -15,8 +15,7 @@ public class Move : MonoBehaviour
     {
         Movement();
     }
-
-
+    
     private void Movement()
     {
         Vector2 movement;
@@ -26,6 +25,6 @@ public class Move : MonoBehaviour
         
         rb.MovePosition(rb.position + movement*(speed* Time.fixedDeltaTime));
     }
-    
-    
+
+   
 }
